@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-family: sans-serif;
+}
+main{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-app{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#contenedor-chat{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chat{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    font-size: medium;
+}
+.username{
+    font-weight: bold;
+}
+#submit{
+    background-color: rgb(60, 26, 255);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px){
+    
+}
